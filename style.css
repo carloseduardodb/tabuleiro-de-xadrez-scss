@@ -1,0 +1,72 @@
+body {
+  background-color: #43aa64;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tabuleiro {
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 5px solid greenyellow;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div section.row:nth-child(1n) div:nth-child(1n) {
+  background-color: white;
+}
+
+div section.row:nth-child(1n) div:nth-child(2n) {
+  background-color: black;
+}
+
+div section.row:nth-child(2n) div:nth-child(1n) {
+  background-color: black;
+}
+
+div section.row:nth-child(2n) div:nth-child(2n) {
+  background-color: white;
+}
+
+div section.row div {
+  width: 50px;
+  height: 50px;
+}
+
+div section.row div:nth-child(1n) {
+  background-color: white;
+}
+
+div section.row div:nth-child(2n) {
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */
