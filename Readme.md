@@ -28,7 +28,6 @@
     <li>Html</li>
     <li>CSS</li>
     <li>Sass</li>
-    <li>Javascript</li>
 </ul>
 
 ### Autor
